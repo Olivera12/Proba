@@ -1,0 +1,273 @@
+/* border za sve elemente* { 
+    border: 1px solid red;
+}
+*/
+
+/* Navigacija */
+nav {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+nav a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(87, 16, 16);
+    text-decoration: none;  
+}
+
+nav a:hover {
+    color: rgba(80, 79, 79, 0.747);
+}
+
+nav ul {
+    background-color: rgb(241, 225, 183);
+    padding-left: 63px;
+    text-align: left;
+    margin: 0px 0px;
+    height: 50px;    
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 14px;
+}
+
+/* Pocetna */
+
+.pocetna {
+width: 100%;
+}
+
+.tekst p {
+  width: 100%;
+  font-size: 20px; 
+}
+
+.tekst {
+  display: block;
+  padding-left: 63px; 
+  width: 50%; 
+}
+
+h3 {
+    font-size: 35px;
+    margin-left: -8px;
+}
+
+.desno {
+    
+    padding-left: 130px;
+}
+
+.desno img {
+    height: 500px;
+}
+
+/* Usluge */
+
+.usluge {
+    display: inline-block;
+    text-align: center;
+    
+}
+.kutija {
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgb(194, 193, 193);
+    text-align: center;
+    padding: 50px; 
+    padding-top: 20px;
+    margin: 50px;
+    display: inline-block;
+    float: left;
+    border-radius: 10px; 
+    box-shadow: 0px 8px 16px 0px gray;
+    color: gray;
+    
+}
+
+.kutija h2 {
+    width: 400px;
+    text-align: center;
+}
+.kutija img {
+    max-width: 100%;
+    
+}
+
+/* Body */
+
+.naslov {
+    font-size: 50px;
+    /* margin-left: 50px; */
+    padding-left: 63px;
+    /* background-color: rgb(241, 225, 183);
+    margin: 0;
+    padding-top: 60px;
+    height: 150px; */
+
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+}
+
+/* Header */
+
+
+header {
+    color: rgb(245, 245, 245);
+    text-align: left;
+    background-image: url('Slike/slika1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: -34px;
+
+
+}
+
+#logo {
+    padding: 150px 0px 40px 300px;
+    font-size: 50px;  
+}
+
+header p {
+    padding:63px;
+    text-align: left;
+    text-shadow: 2px 2px black;
+    text-align: justify;
+    font-size: 25px;
+    width: 800px;
+    
+
+}
+
+#link {
+    position: absolute;
+    top: 3000px;
+}
+
+/* Kontakt */
+
+.obrazac,
+.info,
+.mapa {
+    font-size: x-large;
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 367px;
+    line-height: 15px;
+    font-size: x-large;
+    top: 11px;
+    position: relative;
+    height: 35px;
+}
+textarea {
+    height: 145px;
+ }
+
+.posalji {
+    width: 150px;
+    background-color: rgb(240, 191, 68);
+    border-radius: 63px;
+    /* margin: -6px 108px; */
+   
+}
+
+.posalji:hover {
+   color: rgba(80, 79, 79, 0.747);
+}
+
+.obrazac {
+    text-align: center;
+
+}
+
+.kontakt {
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    width: 95%;
+    margin: 0 auto;
+}
+.info pre {
+    font-family: inherit;
+}
+
+
+
+/* Galerija */
+
+.polje {
+    width: 100%;
+    height: 500px;
+    border: 2px solid rgb(163, 163, 163);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.slika {
+    height: 500px;
+    width: 100%;
+}
+
+div {
+    display: inline-flex;
+}
+
+.slika img {
+    max-height: 100%;
+}
+
+.proba {
+    display: block;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* * {
+    box-sizing: border-box;
+} */
+
+/*Cenovnik  */
+
+
+table, tr, td {
+    /* border: 2px solid rgb(202, 200, 200); */
+    text-align: left;
+    padding: 10px;
+}
+th {
+    padding-left: 20px;
+    /* border-bottom: 1px solid rgb(150, 149, 149); */
+}
+.tabela {
+    display: inline-table;
+    /* border: 2px solid rgb(150, 149, 149); */
+    height: 800px;   
+    width: 700px;    
+}
+.cenovnik {
+    margin: 0 auto;
+    border-radius: 5px;
+    /* border: 1px solid gray; */
+    width: 95%;
+    text-align: center;
+    display: block;
+    font-size: x-large;
+    
+}
+
+
